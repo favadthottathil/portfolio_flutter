@@ -19,8 +19,8 @@ class RouteConfig {
           },
         ),
         GoRoute(
-          path: '/screen1',
-          name: RouteNames.screen1,
+          path: '/aboutscreen',
+          name: RouteNames.aboutscreen,
           pageBuilder: (context, state) {
             return const MaterialPage(
               child: AboutScreen(),

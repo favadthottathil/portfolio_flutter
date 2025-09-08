@@ -11,7 +11,7 @@ class ScrollOffset {
 }
 
 class DisplayOffset extends Cubit<ScrollOffset> {
-  DisplayOffset(ScrollOffset display) : super(display);
+  DisplayOffset(super.display);
 
   void changeDisplayOffset(int value) {
     emit(state.copyWith(value));

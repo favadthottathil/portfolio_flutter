@@ -2,6 +2,6 @@ class RouteNames {
 
   static const String initial = '/initial';
 
-  static const String screen1 = '/screen1';
+  static const String aboutscreen = '/aboutscreen';
   
 }
